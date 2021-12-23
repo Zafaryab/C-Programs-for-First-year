@@ -3,12 +3,13 @@
 int main()
 {
     float x, y;
-    x = 5 / 2 * 2;
-    y = 5 * 2 / 2;
+    x = 5 / 2 * 2;  //left to right associative
+    y = 5 * 2 / 2;  //left to right associative
   
     printf("\n\nValue of x = %.2f", x);
     printf("\nValue of y = %.2f", y);
-    int a = x = y;
+
+    int a = x = y;  //right to left associative
     printf("\n\nValue of x' = %.2f", x);
     printf("\nValue of y' = %.2f", y);
     printf("\nValue of a = %d", a);
