@@ -30,10 +30,8 @@ int main()
 
     //the above, line 23-29, can also be written using Logical Operators in one IF
     if( a > b && c > 1 )
-    {
         b = 0;
-    }
-
+    
     //nested if-else example
     if (a > b)
     {
@@ -62,7 +60,7 @@ int main()
     // Just remember:
     // 1. else can not exist without an if.
     // 2. if can take single or multiple conditions.
-    // 3. if there is one statement within if(condition), you have the option of not using the braces.
+    // 3. if there is one statement within if(condition), you have the option of not using the braces. See line 32-33
     // 4. if there are more than one statements  within if or if-else, then its mandatory to use the braces. 
     
 }
