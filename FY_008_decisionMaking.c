@@ -7,13 +7,13 @@ int main()
     
     if((price > 2000))
         {
-            discount = .1 * price;
+            discount = .1 * price; //10% discount for price above 2000
         }
     else 
     {
         if(price>1000)
         {
-            discount = .05 * price;
+            discount = .05 * price; //5% discount for price between 1001 to 2000 
         }
     }
     

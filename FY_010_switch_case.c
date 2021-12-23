@@ -20,7 +20,7 @@ int main()
         result = a * b;
         break;
 
-    case 3:
+    case 3: // can even write cases on characters eg. case 'a'
         if (a > b)
         {
             result = a - b;
@@ -36,6 +36,7 @@ int main()
     }
 
     //Write a logic so that the below printf doesn't get executed in case of invalid choice
+    //try to include csses for other operators as well
 
     printf("Result = %g", result); //Do let me know how is the result printing with %g different from %f
 }

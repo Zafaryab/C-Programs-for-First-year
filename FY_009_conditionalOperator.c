@@ -5,5 +5,8 @@ int main()
 
     max = (a > b) ? a : b;
     min = (a > b) ? b : a;
+
+    //TRY TO WRITE A LOG FOR FINDING THE LARGEST AND SMALLEST OF THE THREE NUMBERS
+
     printf("Value: %d\t %d", max, min);
 }
