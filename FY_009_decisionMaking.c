@@ -57,4 +57,12 @@ int main()
             a = 10;
         }
     }
+
+    // you can create even more complex branches using if-else.
+    // Just remember:
+    // 1. else can not exist without an if.
+    // 2. if can take single or multiple conditions.
+    // 3. if there is one statement within if(condition), you have the option of not using the braces.
+    // 4. if there are more than one statements  within if or if-else, then its mandatory to use the braces. 
+    
 }
