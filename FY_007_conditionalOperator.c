@@ -8,5 +8,5 @@ int main()
 
     //TRY TO WRITE A LOG FOR FINDING THE LARGEST AND SMALLEST OF THE THREE NUMBERS
 
-    printf("Value: %d\t %d", max, min);
+    printf("Max Value: %d\nMin Value: %d", max, min);
 }
