@@ -14,5 +14,5 @@ void main()
 
     //Output printing
     printf("Addition Operation:\n");
-    printf("%10.2f\n%10.2f\n%10.2f", a, b, result);
+    printf("%5.2f\n%g\n%g", a, b, result);
 }

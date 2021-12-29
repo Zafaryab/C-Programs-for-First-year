@@ -3,25 +3,25 @@ void main()
 {
     float a, b, result;
     //via char too
-    int choice;
+    char choice;
     printf("Enter the value of a:");
     scanf("%f", &a);
     printf("Enter the value of b:");
-    scanf("%f", &b);
-    printf("Kindly press\n1 for Addition\n2 for Multiplication\n3 for Difference\nEnter your choice: ");
-    scanf("%d", &choice);
+    scanf("%f%*c", &b);
+    printf("Kindly press\n'a' for Addition\n'm' for Multiplication\n'd' for Difference\nEnter your choice: ");
+    scanf("%c", &choice);
 
     switch (choice)
     {
-    case 1:
+    case 'a':
         result = a + b;
         break;
 
-    case 2:
+    case 'm':
         result = a * b;
         break;
 
-    case 3: // can even write cases on characters eg. case 'a'
+    case 'd': // can even write cases on characters eg. case 'a'
         if (a > b)
         {
             result = a - b;
@@ -38,6 +38,6 @@ void main()
 
     //Write a logic so that the below printf doesn't get executed in case of invalid choice
     //try to include cases for other operators as well
-
+    
     printf("Result = %g", result); //Do let me know how is the result printing with %g different from %f
 }

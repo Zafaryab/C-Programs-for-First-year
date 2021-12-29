@@ -3,7 +3,7 @@
 int main()
 {
     float x, y;
-    x = 5 / 2 * 2;  //left to right associative
+    x = (float) 5 / 2 * 2;  //left to right associative
     y = 5 * 2 / 2;  //left to right associative
   
     printf("\n\nValue of x = %.2f", x);
