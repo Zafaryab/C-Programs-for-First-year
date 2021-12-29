@@ -1,7 +1,8 @@
 #include <stdio.h>
-int main()
+void main()
 {
     float a, b, result;
+    //via char too
     int choice;
     printf("Enter the value of a:");
     scanf("%f", &a);
@@ -36,7 +37,7 @@ int main()
     }
 
     //Write a logic so that the below printf doesn't get executed in case of invalid choice
-    //try to include csses for other operators as well
+    //try to include cases for other operators as well
 
     printf("Result = %g", result); //Do let me know how is the result printing with %g different from %f
 }

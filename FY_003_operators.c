@@ -9,8 +9,9 @@ int main()
 
     printf("\n\nVarious Operators:\n");
     
-    printf("%03d + %03d = %5d\n", a, b, a+b);
-    printf("%03d - %03d = %5d\n", a, b, a-b);
+    printf("%3d + %03d = %5d\n", a, b, a+b);
+    printf("%3d - %03d = %5d\n", a, b, a-b);
+    //try understanding the difference between %03d and %3d
     printf("%03d * %03d = %5d\n", a, b, a*b);
     printf("%03d / %03d = %5d\n", a, b, a/b);
     printf("%03d | %03d = %5d\n", a, b, a|b);
@@ -20,3 +21,5 @@ int main()
     printf("%03d >> 2  = %5d\n", a, a>>2);
     printf("%03d << 2  = %5d\n", a, a<<2);
 }
+
+
