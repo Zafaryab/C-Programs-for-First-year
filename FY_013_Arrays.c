@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int index = 0, size, num; // enter 5 even numbers in array
+    int index = 0, size, num; 
     printf("Enter the size: ");
     scanf("%d", &size);
 
@@ -21,9 +21,9 @@ void main()
             printf("Please Enter Even number only\n");
         }
     }
-    
+
     printf("\nDisplay Array:\n");
-    for (index = 0; index < size; index = index + 1)
+    for (index = 0; index < size; index++)
     {
         printf("%d\t", array[index]);
     }
