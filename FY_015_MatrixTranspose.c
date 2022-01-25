@@ -31,7 +31,7 @@ void main()
     {
         for (j = 0; j < c; j++)
         {
-            if (i < j)  //this logic is working fine for square matrix but not for others. Make necessary changes so that it works fine
+            if ((r < c) ? i < j : i > j) // this logic is working fine for square matrix but not for others. Make necessary changes so that it works fine
             {
                 temp = mat[j][i];
                 mat[j][i] = mat[i][j];
